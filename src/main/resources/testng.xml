@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Walmart Application Automation Test Suite">
+
+<listeners>
+	<listener class-name = "com.walmart.qa.ExtentReportListener.ExtentReportListner"/>
+
+	
+</listeners>
+	<test name = "Walmart Test Cases">
+		<classes>
+			<class name = "com.walmart.qa.testcases.LoginPageTests"></class>
+			<class name = "com.walmart.qa.testcases.CreateAccountPageTest"></class>
+			<class name = "com.walmart.qa.testcases.PersonalSettingPageTest"></class>
+			<class name = "com.walmart.qa.testcases.CreditCardPageTest"></class>
+			<class name = "com.walmart.qa.testcases.HomePageTest"></class>
+			<class name = "com.walmart.qa.testcases.MyAccountPageTest"></class>
+			<class name = "com.walmart.qa.testcases.SearchOutputPageTest"></class>
+			<class name = "com.walmart.qa.testcases.ProductPageTest"></class>
+		</classes>
+	</test>
+</suite>
